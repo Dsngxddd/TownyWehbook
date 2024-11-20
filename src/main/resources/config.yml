@@ -1,0 +1,27 @@
+general:
+  update_interval_ticks: 20
+
+webhooks:
+  new_day: "VERGI_GUNU_WEHBOOK_URL"
+  new_town: "YENI_KASABA_OLUSTUGUNDA_URL"
+  default_username: "MC-TR 🤖" # Wehbook ismi
+  embed_logo_url: "https://cdn.discordapp.com/attachments/1144773610477735976/1308849175785504778/mctr.png?ex=673f7048&is=673e1ec8&hm=4e6651ea932d1b35de4a01c3008a4710e18011885bc83303b6b3f6868ef43ea4&" #Embed URL
+
+messages:
+  new_town:
+    embed_title: "🏡 Yeni Bir Kasaba Kuruldu!"
+    embed_description: "**%town_name%** kasabası, **%mayor_name%** tarafından **%world_name%** dünyasında kuruldu! 🚀"
+    embed_color: "00FF00"
+    embed_logo: "https://cdn.discordapp.com/attachments/1144773610477735976/1308849175785504778/mctr.png?ex=673f7048&is=673e1ec8&hm=4e6651ea932d1b35de4a01c3008a4710e18011885bc83303b6b3f6868ef43ea4&"
+
+  new_day_report:
+    title: "📊 Günlük Towny Raporu"
+    embed_title: "📋 Günlük İstatistikler"
+    total_taxes: "💰 Toplanan Toplam Vergiler: **%total_taxes%**"
+    richest_town: "🏆 En Zengin Kasaba: **%richest_town%** (Bakiye: **%richest_balance%**) 💸"
+    poorest_town: "💔 En Fakir Kasaba: **%poorest_town%** (Bakiye: **%poorest_balance%**) 🪙"
+    unpaid_towns: "🚨 Vergisini Ödeyemeyen Kasabalar: **%unpaid_towns%**"
+    all_paid: "✔️ Tüm kasabalar vergilerini ödedi. 👏"
+    embed_color: "FFDD00"
+    footer_text: "Towny Günlük İstatistikleri 📅"
+    footer_icon: "https://cdn.discordapp.com/attachments/1144773610477735976/1308849175785504778/mctr.png?ex=673f7048&is=673e1ec8&hm=4e6651ea932d1b35de4a01c3008a4710e18011885bc83303b6b3f6868ef43ea4&"
